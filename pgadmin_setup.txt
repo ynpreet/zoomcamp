@@ -46,3 +46,13 @@ FROM information_schema.tables
 WHERE table_schema = 'public';
 
 select count(*) from yellow_taxi_trips
+
+
+
+-------------------- Incase you want to use new tool Dbeaver -----------------
+
+localhost: localhost
+database: ny_taxi
+Port: 5431
+Username: root
+Password: root
